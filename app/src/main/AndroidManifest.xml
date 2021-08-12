@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ok.notesappproto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/notes_app_icon_final"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/notes_app_icon_final"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NotesAppProto">
+        <activity android:name=".Activites.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activites.ViewNotesActivity" />
+        <activity android:name=".Activites.AddNoteActivity" />
+        <activity android:name=".Activites.SignInActivity" />
+        <activity android:name=".Activites.SignUpActivity">
+
+        </activity>
+        <activity android:name=".Activites.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
